@@ -4,7 +4,7 @@
 <br />
 A basic React CRUD Application made for storing User Data and Notes in a remote database and fetch data and display notes giving user various options. It also include an email based authentication system which seprates notes that are created by different users.  
 
-### QuickNotes Backend Repo - [QuickNotes-Frontend](https://github.com/mayankdhnkr/quicknotes-frontend)
+### QuickNotes Frontend Repo - [QuickNotes-Frontend](https://github.com/mayankdhnkr/quicknotes-frontend)
 
 ## Features
 
