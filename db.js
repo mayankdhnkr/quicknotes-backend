@@ -1,11 +1,13 @@
 const mongoose = require('mongoose');
-const mongoURI = "mongodb://127.0.0.1:27017/quicknotes";
+require("dotenv").config({ path: __dirname + "/.env" });
+const mongoURI = process.env["MONGO_URI"];
 
 const connectToMongo = async() => {
     try {
         mongoose.set('strictQuery', false)
         mongoose.connect(mongoURI) 
-        console.log('Mongo connected')
+        console.log(mongoURI); 
+        console.log('Mongo connected');
     }
     catch(error) {
         console.log(error)
